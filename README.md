@@ -1,9 +1,9 @@
 # XPIOKBA ЛЮБИТ РЫБКУ (и раков)
 
-![Image]1.png
+![Image](/1.png)
 
 
-[Image]2.png
+![Image](2.png)
 
 
 
