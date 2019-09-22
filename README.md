@@ -1,4 +1,4 @@
-# XPIOKBA ЛЮБИТ РЫБКУ
+# XPIOKBA ЛЮБИТ РЫБКУ (и раков)
 
 ![Image]1.png
 
