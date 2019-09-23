@@ -1,5 +1,5 @@
+[Блог](https://XPIOKBA.github.io/blog/)
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
-[Блог](https://XPIOKBA.github.io/blog/)<br>
 ![Image](сердечко-стена.png)
 <p><center>...(и раков).</center>
 </p><br>
