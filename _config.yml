@@ -1,4 +1,4 @@
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 #
 # This file contains configuration flags to customize your site
 #
@@ -38,7 +38,7 @@ footer-links:
 disqus:
 
 url: XPIOKBA.github.io
-baseurl: "/jekyll-now"
+#baseurl: "/jekyll-now"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
