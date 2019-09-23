@@ -1,4 +1,4 @@
-[Блог](https://XPIOKBA.github.io/blog/) <div align="right"> [Test 🥒](/github-slideshow) </div>
+[Блог](https://XPIOKBA.github.io/blog/) <p align="right"> [Test 🥒](/github-slideshow) </p>
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
 ![Image](сердечко-стена.png)
 <p><center>...(и раков).</center>
