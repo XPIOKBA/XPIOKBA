@@ -2,7 +2,7 @@
 ![Image](сердечко-стена.png)
 <p><center>...(и раков).</center>
 </p><br>
-[Блог](https://xpiokba.github.io/jekyll-now/)<br>
+[Блог](https://barsuk.github.io)<br>
 `Рыбный код:` 
  
 ```javascript
