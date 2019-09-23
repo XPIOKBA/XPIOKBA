@@ -4,7 +4,7 @@
 <br> 
 Рыбный код:
 <br>
-I think you should use an `<addr>` element here instead.
+I think you should use an `addr` element here instead.
 
 ```javascript
 if (isAwesome){
