@@ -37,4 +37,5 @@ footer-links:
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
 
-url: XPIOKBA.github.io1
+url: XPIOKBA.github.io
+baseurl: "/jekyll-now"
