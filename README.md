@@ -2,7 +2,7 @@
 ![Image](сердечко-стена.png)
 <p><center>...(и раков).</center>
 </p><br>
-[Блог](https://barsuk.github.io)<br>
+[Блог](https://XPIOKBA.github.io/blog/)<br>
 `Рыбный код:` 
  
 ```javascript
