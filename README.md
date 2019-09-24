@@ -3,8 +3,8 @@
 ![Image](heart.png)
 <p><center>...(и раков).</center>
 </p><br>
-`Рыбный код:` 
-```javascript
+`Рыбный код:` 123
+```
 if (GiveMeFish)
 then {
   GetCancers = true
