@@ -1,6 +1,6 @@
 [Блог](/blog/) 🥒🥒🥒🥒🥒🥒🥒🥒🥒🥒 [Test ](/github-slideshow)
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
-![Image](сердечко-стена.png)
+![Image](heart.png)
 <p><center>...(и раков).</center>
 </p><br>
 `Рыбный код:` 
