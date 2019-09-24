@@ -1,10 +1,9 @@
-[Блог](/blog/) 🥒🥒🥒🥒🥒🥒🥒🥒🥒🥒 [Test ](/github-slideshow)
+[Блог](/blog/) 🥒🥒🥒🥒🥒🥒🥒🥒🥒🥒 [Test](/github-slideshow)
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
 ![Image](heart.png)
 <center>...(и раков).</center>
 <br>
-
-**Рыбный код**
+**Рыбный код:**
 ```Javascript 
 if (GiveMeFish)
 then {
