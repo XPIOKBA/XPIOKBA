@@ -3,9 +3,11 @@
 ![Image](heart.png)
 <p><center>...(и раков).</center>
 </p><br>
+```markdown 
 Рыбный код:
-
-```markdown
+```
+123
+```Javascript 
 if (GiveMeFish)
 then {
   GetCancers = true
