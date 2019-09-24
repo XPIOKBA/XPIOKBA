@@ -3,7 +3,7 @@
 ![Image](heart.png)
 <center>...(и раков).</center>
 <br>
-**Рыбный код:**
+**Рыбный код::**
 ```Javascript 
 if (GiveMeFish)
 then {
