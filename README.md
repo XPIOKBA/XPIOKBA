@@ -3,7 +3,8 @@
 ![Image](heart.png)
 <p><center>...(и раков).</center>
 </p><br>
-`Рыбный код:` 123
+Рыбный код:
+
 ```markdown
 if (GiveMeFish)
 then {
