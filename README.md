@@ -4,7 +4,7 @@
 <p><center>...(и раков).</center>
 </p><br>
 `Рыбный код:` 
- ```javascript
+```javascript
 if (GiveMeFish)
 then {
   GetCancers = true
