@@ -2,9 +2,10 @@
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
 ![Image](heart.png)
 <center>...(и раков).</center>
-<br>1
+<br>
 
 **Рыбный код**
+1
 
 ```Javascript 
 if (GiveMeFish)
