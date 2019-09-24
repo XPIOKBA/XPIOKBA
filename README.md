@@ -4,7 +4,7 @@
 <p><center>...(и раков).</center>
 </p><br>
 `Рыбный код:` 123
-```
+```markdown
 if (GiveMeFish)
 then {
   GetCancers = true
