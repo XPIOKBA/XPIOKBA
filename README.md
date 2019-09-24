@@ -1,12 +1,10 @@
 [Блог](/blog/) 🥒🥒🥒🥒🥒🥒🥒🥒🥒🥒 [Test ](/github-slideshow)
 # <center>XPIOKBA ЛЮБИТ РЫБКУ</center>
 ![Image](heart.png)
-<p><center>...(и раков).</center>
-</p><br>
-```markdown 
-Рыбный код:
-```
-123
+<center>...(и раков).</center>
+<br>
+
+**Рыбный код**
 ```Javascript 
 if (GiveMeFish)
 then {
