@@ -1,3 +1,19 @@
+/* пример комментария */
+h1{
+font-family: 'Cavendish modern';
+font-weight:bold ;
+text-transform:uppercase;
+text-align:center;
+color:#fefefe;
+}
+
+p{
+font-family: 'comic sans';
+font-weight:normal;
+text-align:center;
+color:#006708;
+}
+
 img {
     animation: colorize 4s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
