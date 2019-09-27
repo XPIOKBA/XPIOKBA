@@ -31,7 +31,7 @@ img {
 
 @keyframes colorize1 {
     0% {
-        filter:opacity(0) grayscale(100%) blur(10px);
+        filter:opacity(0) hue-rotate(360deg) blur(10px);
     }
     100% {
     }
@@ -84,9 +84,9 @@ float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 
         
         border: 0px solid #fa0000;
         margin: 0px auto;
-        margin-right: 300px;
-        margin-left: 300px;
-        display: block;
+        margin-right: 70px;
+        margin-left: 00px;
+        display: inline-block;
 	transition: all 01.5s linear; 
 	}
 	.trans:hover{
