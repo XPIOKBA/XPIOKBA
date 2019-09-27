@@ -86,7 +86,7 @@ float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 
         margin: 0px auto;
         margin-right: 300px;
         margin-left: 300px;
-        display: inline-block;
+        display: block;
 	transition: all 01.5s linear; 
 	}
 	.trans:hover{
