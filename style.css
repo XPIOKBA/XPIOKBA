@@ -1,0 +1,113 @@
+/* пример комментария */
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0em auto;
+    animation: colorize1 2s cubic-bezier(0, 0, .78, .36) 1;
+    font-family: 'Cavendish-modern';
+    font-weight:normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ce00ff;
+}
+
+p{
+    animation: colorize1 4s cubic-bezier(0, 0, .78, .36) 1;
+    font-family: 'comic-sans', cursive;
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: center;
+    color: #006708;
+}
+
+img {
+    animation: colorize3 4s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 0px solid rgba(0, 0, 0, 0.12);
+    border-radius: 200px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+@keyframes colorize1 {
+    0% {
+        filter:opacity(0) grayscale(100%) blur(10px);
+    }
+    100% {
+    }
+}
+
+@keyframes colorize2 {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+    }
+}
+@keyframes colorize3 {
+    0% {
+        filter: hue-rotate(360deg);
+    }
+    100% {
+    }
+}
+@keyframes colorize4 {
+    0% {
+        filter: opacity(0%);
+    }
+    100% {
+    }
+}
+@keyframes colorize5 {
+    0% {
+        filter: invert(1);
+    }
+    100% {
+    }
+}
+	.pic{
+        cursor: not-allowed;
+float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 0 auto;border-radius: 20px;
+	transition: all 01.5s linear; 
+	}
+	.pic:hover{
+float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 0 auto;border-radius: 0px;
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: all 0.5s linear;
+	}
+
+	.trans{
+        
+        border: 0px solid #fa0000;
+        margin: 0px auto;
+        margin-right: 300px;
+        margin-left: 300px;
+        display: inline-block;
+	transition: all 01.5s linear; 
+	}
+	.trans:hover{
+
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	}
+
+/*
+        filter: grayscale(0%);
+        -webkit-filter: blur(10px);
+        -webkit-filter: grayscale(100%);
+        filter: blur(0px);
+        -webkit-filter: grayscale(0%);
+        -webkit-filter: blur(0px);
+*/
+
