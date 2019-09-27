@@ -1,7 +1,6 @@
 /* пример комментария */
 
 h1,h2,h3,h4,h5,h6{
-    margin: 0em auto;
     animation: colorize1 2s cubic-bezier(0, 0, .78, .36) 1;
     font-family: 'Cavendish-modern';
     font-weight:normal;
@@ -28,6 +27,49 @@ img {
     margin: 1.3em auto;
     max-width: 95%;
 }
+
+.pic{
+        cursor: not-allowed;
+        float: left;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin: 0 auto;
+        margin-right: -70px;
+        border-radius: 20px;
+        transition: all 01.5s ease-in; 
+	}
+.pic:hover{
+    display: inline-block;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-right: -70px;
+
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: all 0.5s linear;
+	}
+
+.trans{
+    display: inline-block;
+	transition: all 01.5s ease-in; 
+	}
+.trans:hover{
+    display: inline-block;
+
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	}
 
 @keyframes colorize1 {
     0% {
@@ -65,43 +107,6 @@ img {
     100% {
     }
 }
-	.pic{
-        cursor: not-allowed;
-float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 0 auto;border-radius: 20px;
-	transition: all 01.5s linear; 
-	}
-	.pic:hover{
-float: left;width: 70px;height: 70px;display: inline;margin-right: 15px;margin: 0 auto;border-radius: 0px;
-	-ms-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	transform: scale(1.2);
-	transition: all 0.5s linear;
-	}
-
-	.trans{
-        
-        border: 0px solid #fa0000;
-        margin: 0px auto;
-        margin-right: 70px;
-        margin-left: 00px;
-        display: inline-block;
-	transition: all 01.5s linear; 
-	}
-	.trans:hover{
-
-	-ms-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	transform: scale(1.2);
-	transition: all 0.5s linear;
-	-webkit-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	}
-
 /*
         filter: grayscale(0%);
         -webkit-filter: blur(10px);
