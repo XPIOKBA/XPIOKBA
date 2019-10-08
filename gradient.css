@@ -1,0 +1,75 @@
+html {
+    transition: all 2s;
+    background-color: #ff0080;
+    font-family: monospace;
+    /*            background-image: linear-gradient(to left,lime,yellow);*/
+}
+
+html:hover {
+    transition: none;
+    background-color: chartreuse;
+    /*            background-image: linear-gradient(to left,#ff0080,yellow);*/
+    /*            background: element(#sl)*/
+}
+body{
+    margin: 0 auto;
+    max-width: 800px;
+}
+header{
+    background-image: linear-gradient(to left,lime,yellow);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.56);
+/*    margin: 0 auto;*/
+/*    background: red;*/
+    position: sticky;
+    top: 21px;
+}
+h1 {
+    font-family: cursive;
+    text-align: center;
+    transition: all 1s ease-in;
+}
+
+h1:active {
+/*    display: inline;*/
+/*    float: left;*/
+    transform: rotate(360deg);
+    margin-right: 80%;
+    font-size: .7em;
+    filter: opacity(10%);
+}
+
+h3 {
+    position: absolute;
+    bottom: 3%;
+    left: 1%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+input {
+    font-family: monospace;
+}
+
+button {
+    font-family: monospace;
+}
