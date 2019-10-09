@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="version" content="0.2">
+    <meta name="version" content="0.21">
     <link rel="stylesheet" href="gradient.css">
     <title>Gradient</title>
 </head>
@@ -11,8 +11,8 @@
    <header class="header" id="header">
     <!--<body id="qq" onload="grad()">-->
     <h1 title="Click and hold me :)">Create your gradient</h1>
-    <h3 title="Click and hold me :)">Version: 0.2</h3>
-    
+    <h3 id="vers" title="Click and hold me :)">Version: </h3>
+    <script>vers.innerHTML+=document.head.querySelector("[name~=version][content]").content;</script>
     
     <div style="font-family: monospace; align-content: center; text-align: center">
         <div style="display:inline-block;">
@@ -22,8 +22,7 @@
         </div>
         <div style="margin-bottom: 4px; width: 350px; border-width: 1px; border-color: aqua; display: inline-flex; text-align: center;">
             <button type="button" onclick="grad();" title="Make gradient from current left and right colors.">Set Gradient</button>
-            <button type="button" onclick="qq.style.backgroundImage ='none'" title="Set single color background">No BG Gradient</button>
-            <button type="button" onclick="header.style.backgroundImage ='none'" title="Set single color header">No Header Gradient</button>
+            <button type="button" onclick="qq.style.backgroundImage ='none'" ondblclick="header.style.backgroundImage ='none'" title="Set single color background. DoubleClick - Set single color header">No Gradient</button>
             <button type="button" onclick="sr.value=randomcolor();sl.value=randomcolor();grad();" title="Generate one random gradient">Random Gradient</button>
             <button type="button" onclick="var xx=sr.value;sr.value=sl.value;sl.value=xx;grad();" title="Replace Left and Right colors">&larr;&rarr;</button>
         </div>
