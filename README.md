@@ -1,6 +1,4 @@
-<center>    
-[Блог](/blog/) 🥒 [Вариантция](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow)    
-</center>      
+[Блог](/blog/) 🥒 [Вариантция](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow)
 <center>🥒🥒🥒🥒🥒 * Добро пожаловать на страничку Хрюквы! * 🥒🥒🥒🥒🥒</center>
 # <center>ХРЮКВА ЛЮБИТ РЫБКУ</center>
 ![Image](heart.png)
