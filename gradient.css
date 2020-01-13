@@ -44,13 +44,13 @@ h1 {
 
 }
 
-h1:active {
+h1.small {
 /*    display: inline;*/
 /*    float: left;*/
     transform: rotate(360deg);
-    margin-right: 80%;
+    margin-left: 80%;
     font-size: .7em;
-    filter: opacity(80%);
+    filter: opacity(100%);
 }
 
 h3 {
@@ -117,9 +117,9 @@ button {
 */
     }
 }
-h3:active {
+h3.vers {
         font-size: 250%;
 /*        margin-left: -15%;*/
-        width: 150%;
+        bottom: -20%;
 
 }

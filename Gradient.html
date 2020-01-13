@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="version" content="0.23">
+    <meta name="version" content="0.3">
     <link rel="stylesheet" href="gradient.css">
     <title>Gradient</title>
 </head>
 <body onload="colorid.value=sl.value;coloridr.value=sr.value;">
    <header class="header" id="header">
     <!--<body id="qq" onload="grad()">-->
-    <h1 title="Click and hold me :)"> Create Your Gradient </h1>
-    <h3 id="vers" title="Click and hold me :)">Version: </h3>
+    <h1 id="h1" title="Click me :)" onclick="if (h1.className=='small') {h1.className='';} else {h1.className='small';}"> Create Your Gradient </h1>
+    <h3 id="vers" title="Click me :)" onclick="if (vers.className=='vers') {vers.className='';} else {vers.className='vers';}">Version: </h3>
     <script>vers.innerHTML+=document.head.querySelector("[name~=version][content]").content;</script>
     
     <div style="font-family: monospace; align-content: center; text-align: center">
-        <div style="display:inline-block;">
-            <input type="text" style="width: 60px; text-transform: uppercase;" id="coloridr" value="#000000" onload, onchange="sr.value=coloridr.value;grad();" title="HEX code (change to your color)">
-            <input type="color" name="ar" id="sr" value="#009900" onchange="coloridr.value=sr.value;grad();" title="Click to select left color">
+        <div style="display:inline-block; position: absolute; left: 150px;">
+            <input type="text" style="width: 60px; text-transform: uppercase;" id="coloridr" value="#000000" onload, onchange="sr.value=coloridr.value;grad();" title="HEX code (change to your color)"><br />
+            <input type="color" name="ar" id="sr" value="#009900" onchange="coloridr.value=sr.value;grad();" title="Click to select left color"><br />
             <button type="button" onclick="sr.value=randomcolor();colorid.value=sl.value;coloridr.value=sr.value;grad();" title="Random Left Color">Random</button>
         </div>
         <div style="margin-bottom: 4px; width: 350px; border-width: 1px; border-color: aqua; display: inline-flex; text-align: center;">
@@ -26,10 +26,10 @@
             <button type="button" onclick="sr.value=randomcolor();sl.value=randomcolor();grad();" title="Generate one random gradient">Random Gradient</button>
             <button type="button" onclick="var xx=sr.value;sr.value=sl.value;sl.value=xx;grad();" title="Replace Left and Right colors">&larr;&rarr;</button>
         </div>
-        <div style="display:inline-block;">
+        <div style="display:inline-block; position: absolute; right: 150px;">
+            <input type="text" style="width: 60px; text-transform: uppercase;" id="colorid" onchange="sl.value=colorid.value;grad();" title="HEX code (change to your color)"><br />
+            <input type="color" name="al" id="sl" value="#ffff00" onchange="colorid.value=sl.value;grad();" title="Click to select right color"><br />
             <button type="button" onclick="sl.value=randomcolor();colorid.value=sl.value;coloridr.value=sr.value;grad();" title="Random Right Color">Random</button>
-            <input type="color" name="al" id="sl" value="#ffff00" onchange="colorid.value=sl.value;grad();" title="Click to select right color">
-            <input type="text" style="width: 60px; text-transform: uppercase;" id="colorid" onchange="sl.value=colorid.value;grad();" title="HEX code (change to your color)">
         </div>
         <br>
         <button type="button" onclick="t[t.length]=setInterval('sr.value=randomcolor();sl.value=randomcolor();grad();',1000);console.log('Значения интервалов: '+t+'. Всего интервалов: '+t.length);stopbutton.innerText='Stop generating ('+t.length+' running)'" title="Start generate Random Gradients interval 1s (you can press this button multiple times to add more generators)">Start generating</button>
