@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="version" content="0.22">
+    <meta name="version" content="0.23">
     <link rel="stylesheet" href="gradient.css">
     <title>Gradient</title>
 </head>
@@ -43,6 +43,22 @@
     </header>
     
     <div id="qqq" style="margin-top: 10px; text-transform: uppercase; vertical-align: text-bottom;">
+        <div id="legend" style="display: block; padding: 14px; border: 2px; text-align: left;background-image: linear-gradient(to left,lime,yellow); font-family: cursive; text-transform: none;" title="История градиентов. Кликните на любой чтобы применить к фону.">
+        Hi.<br />
+        It's Gradient Creator.<br />
+        Here you can create your gradient set.<br />
+            <b>Move mouse over buttons and elements to display hints.</b><br />
+        Mix any colors or run 
+                <button type="button" onclick="t[t.length]=setInterval('sr.value=randomcolor();sl.value=randomcolor();grad();',1000);console.log('Значения интервалов: '+t+'. Всего интервалов: '+t.length);stopbutton.innerText='Stop generating ('+t.length+' running)'" title="Start generate Random Gradients interval 1s (you can press this button multiple times to add more generators)">random generating</button>.<br />
+        All your results will be store here.<br />
+        Just click any stored result to apply it.<br />
+        <br />
+        Thanks for your interest.<br />
+        Sincerely yours,<br />
+        Хрюква.<br />
+        <br />
+        P.S. I like gradients very much!<br />
+        </div>
         <div id="story" style="display: none; padding-bottom: 4px; border: 2px; text-align: center;background-image: linear-gradient(to left,lime,yellow); text-transform: none;" title="История градиентов. Кликните на любой чтобы применить к фону.">Gradient collection. Click any gradient below to apply to background.</div>
     </div>
     
@@ -50,6 +66,7 @@
     var t = new Array();
         
     function grad(){
+        legend.style.display = 'none';
         story.style.display = 'block';
         qq.style.backgroundImage = "linear-gradient(to left," + sl.value + "," + sr.value + ")";
         header.style.backgroundImage = "linear-gradient(to left," + sl.value + "," + sr.value + ")";
