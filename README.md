@@ -1,9 +1,4 @@
-| 🥒 [Блог](/blog/) 🥒 [Вариантция](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow) 🥒 [MarkdownTest](/1) 🥒 | 2 |
-| --- | --- |
-
-
-1
-
+🥒 [Блог](/blog/) 🥒 [Вариантция](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow) 🥒 [MarkdownTest](/1) 🥒
 <center>🥒🥒🥒🥒🥒 * Добро пожаловать на страничку Хрюквы! * 🥒🥒🥒🥒🥒</center>
 Чем больше огурцов,  
 тем <del>лучше</del>.
