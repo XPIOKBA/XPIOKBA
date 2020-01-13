@@ -26,6 +26,7 @@ header{
 h1 {
 /*    background-image: linear-gradient(to left,lime,yellow);*/
 /*    -webkit-background-clip: text;*/
+    cursor: default;
     color: yellow;
     text-decoration-line: underline;
     text-decoration-skip: none;
@@ -49,13 +50,15 @@ h1:active {
     transform: rotate(360deg);
     margin-right: 80%;
     font-size: .7em;
-    filter: opacity(10%);
+    filter: opacity(80%);
 }
 
 h3 {
+    cursor: default;
     position: absolute;
     bottom: 4%;
     left: 1%;
+    transition: all 1s ease-in;
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
@@ -113,4 +116,10 @@ button {
         width: 100%;
 */
     }
+}
+h3:active {
+        font-size: 250%;
+/*        margin-left: -15%;*/
+        width: 150%;
+
 }
