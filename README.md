@@ -1,7 +1,6 @@
-🥒 [Блог](/blog/) 🥒 [Вариантция](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow) 🥒 [MarkdownTest](/1) 🥒
+🥒 [Сайт Хрюквы](http://hrukva.ml/) 🥒 [Блог](/blog/) 🥒 [Рыбы](index1.html) 🥒 [Хрюква обожает градиенты](/Gradient.html) 🥒 [Test](/github-slideshow) 🥒  
 <center>🥒🥒🥒🥒🥒 * Добро пожаловать на страничку Хрюквы! * 🥒🥒🥒🥒🥒</center>
-Чем больше огурцов,  
-тем <del>лучше</del>.
+Чем больше огурцов, тем <del>лучше</del>.
 # <center>ХРЮКВА ЛЮБИТ РЫБКУ</center>
 ![Image](heart.png)
 <center>...(и раков).</center>
